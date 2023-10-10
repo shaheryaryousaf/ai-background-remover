@@ -4,8 +4,8 @@ from io import BytesIO
 from rembg import remove
 
 # Page Config
-st.set_page_config(page_title="Background Remover")
-st.title("Background Remover")
+st.set_page_config(page_title="Scene Strip - A Background Removal AI App")
+st.title("Scene Strip")
 uploaded_file = st.file_uploader(
     "Upload an image", type=['png', 'jpg', 'jpeg'])
 
